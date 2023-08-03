@@ -10,6 +10,8 @@ import SwiftUI
 struct Followers: View {
     var body: some View {
         ZStack {
+            Color(.init(genericCMYKCyan: 0.00, magenta: 0.00, yellow: 0.00, black: 0.41, alpha: 0.55))
+                .ignoresSafeArea()
             VStack(alignment: .leading, spacing: 20.0) {
                 Text("                                           ")
                 Text("Followers")
