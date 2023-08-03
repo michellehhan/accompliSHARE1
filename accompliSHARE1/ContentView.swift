@@ -33,7 +33,7 @@ struct ContentView: View {
                             !searchText.isEmpty && person.lowercased().contains(searchText.lowercased())
                         }, id: \.self) { person in
                             if person == "Karlie Kloss" {
-                                NavigationLink(destination: KarlieKlossView()) {
+                                NavigationLink(destination: KarlieKlossView1()) {
                                     Text(person)
                                         .frame(maxWidth: .infinity, alignment: .leading)
                                         .padding()

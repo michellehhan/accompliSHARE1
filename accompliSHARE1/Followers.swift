@@ -43,6 +43,7 @@ struct Followers: View {
             .padding()
             .background(Color(red: 170/255, green: 233/255, blue: 241/255))
             .cornerRadius(35)
+            
         }
     }
 }

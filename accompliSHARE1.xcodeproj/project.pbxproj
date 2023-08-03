@@ -14,7 +14,6 @@
 		E009E0882A7AECB00093AAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009E0872A7AECB00093AAF8 /* ContentView.swift */; };
 		E009E08A2A7AECB10093AAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E009E0892A7AECB10093AAF8 /* Assets.xcassets */; };
 		E009E08D2A7AECB10093AAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E009E08C2A7AECB10093AAF8 /* Preview Assets.xcassets */; };
-		E009E0A12A7B03090093AAF8 /* KarlieKlossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009E0A02A7B03090093AAF8 /* KarlieKlossView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		E009E0872A7AECB00093AAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E009E0892A7AECB10093AAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E009E08C2A7AECB10093AAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E009E0A02A7B03090093AAF8 /* KarlieKlossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarlieKlossView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				A070FA8D2A7B61E6005E210B /* Followers.swift */,
 				A070FA8F2A7B625C005E210B /* Following.swift */,
 				E009E0892A7AECB10093AAF8 /* Assets.xcassets */,
-				E009E0A02A7B03090093AAF8 /* KarlieKlossView.swift */,
 				A070FA912A7B63EF005E210B /* KarlieKlossView1.swift */,
 				E009E08B2A7AECB10093AAF8 /* Preview Content */,
 			);
@@ -149,7 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E009E0A12A7B03090093AAF8 /* KarlieKlossView.swift in Sources */,
 				E009E0882A7AECB00093AAF8 /* ContentView.swift in Sources */,
 				A070FA902A7B625C005E210B /* Following.swift in Sources */,
 				A070FA922A7B63EF005E210B /* KarlieKlossView1.swift in Sources */,
