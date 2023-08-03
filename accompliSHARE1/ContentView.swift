@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 Text("Find Friends")
-                    .font(.largeTitle)
+                    .font(.title)
                     .fontWeight(.bold)
                     .padding(.top, 90)
                     .padding(.bottom, 20)
@@ -33,7 +33,7 @@ struct ContentView: View {
                             !searchText.isEmpty && person.lowercased().contains(searchText.lowercased())
                         }, id: \.self) { person in
                             if person == "Karlie Kloss" {
-                                NavigationLink(destination: KarlieKlossView1()) {
+                                NavigationLink(destination: KarlieKlossView1(user: User.MOCK_USERS[9])) {
                                     Text(person)
                                         .frame(maxWidth: .infinity, alignment: .leading)
                                         .padding()
