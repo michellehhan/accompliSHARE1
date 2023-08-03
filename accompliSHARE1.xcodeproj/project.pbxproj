@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A070FA8E2A7B61E6005E210B /* Followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070FA8D2A7B61E6005E210B /* Followers.swift */; };
+		A070FA902A7B625C005E210B /* Following.swift in Sources */ = {isa = PBXBuildFile; fileRef = A070FA8F2A7B625C005E210B /* Following.swift */; };
 		E009E0862A7AECB00093AAF8 /* accompliSHARE1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009E0852A7AECB00093AAF8 /* accompliSHARE1App.swift */; };
 		E009E0882A7AECB00093AAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009E0872A7AECB00093AAF8 /* ContentView.swift */; };
 		E009E08A2A7AECB10093AAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E009E0892A7AECB10093AAF8 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A070FA8D2A7B61E6005E210B /* Followers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Followers.swift; sourceTree = "<group>"; };
+		A070FA8F2A7B625C005E210B /* Following.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Following.swift; sourceTree = "<group>"; };
 		E009E0822A7AECB00093AAF8 /* accompliSHARE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accompliSHARE1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E009E0852A7AECB00093AAF8 /* accompliSHARE1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accompliSHARE1App.swift; sourceTree = "<group>"; };
 		E009E0872A7AECB00093AAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				E009E0852A7AECB00093AAF8 /* accompliSHARE1App.swift */,
 				E009E0872A7AECB00093AAF8 /* ContentView.swift */,
+				A070FA8D2A7B61E6005E210B /* Followers.swift */,
+				A070FA8F2A7B625C005E210B /* Following.swift */,
 				E009E0892A7AECB10093AAF8 /* Assets.xcassets */,
 				E009E0A02A7B03090093AAF8 /* KarlieKlossView.swift */,
 				E009E08B2A7AECB10093AAF8 /* Preview Content */,
@@ -142,6 +148,8 @@
 			files = (
 				E009E0A12A7B03090093AAF8 /* KarlieKlossView.swift in Sources */,
 				E009E0882A7AECB00093AAF8 /* ContentView.swift in Sources */,
+				A070FA902A7B625C005E210B /* Following.swift in Sources */,
+				A070FA8E2A7B61E6005E210B /* Followers.swift in Sources */,
 				E009E0862A7AECB00093AAF8 /* accompliSHARE1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

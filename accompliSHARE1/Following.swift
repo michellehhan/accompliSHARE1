@@ -1,0 +1,54 @@
+//
+//  Following.swift
+//  accompliSHARE1
+//
+//  Created by Gnapika Birlangi on 8/2/23.
+//
+
+import SwiftUI
+
+struct Following: View {
+    var body: some View {
+        ZStack {
+            VStack(alignment: .leading, spacing: 20.0) {
+                Text("                                           ")
+                Text("Following")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.bottom, 50)
+                    .padding(.top, -10)
+                Text("Michelle Han")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Emily Markova")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Gnapika Birlangi")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Rachel Yoon")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Taylor Swift")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Alicia Chiang")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Text("Aayushi Garg")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .padding(.bottom, -0.01)
+                Text("                                                                         ")
+            }
+            .padding()
+            .background(Color(red: 156/255, green: 236/255, blue: 156/255))
+            .cornerRadius(35)
+        }    }
+}
+
+struct Following_Previews: PreviewProvider {
+    static var previews: some View {
+        Following()
+    }
+}
